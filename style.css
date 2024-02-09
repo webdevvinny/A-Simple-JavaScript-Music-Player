@@ -1,0 +1,39 @@
+.song {
+  border: 3px solid yellowgreen;
+  width: 300px;
+  padding: 20px;
+  word-break: break-all;
+  overflow: hidden;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#play,
+#pause {
+  cursor: pointer;
+  width: 200px;
+  padding: 10px;
+  background-color: aqua;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#volumeUp,
+#volumeDown,
+.percentage {
+  width: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: aqua;
+  border-radius: 20px;
+  background-color: blueviolet;
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.percentage {
+  cursor: none;
+  overflow: hidden;
+}
